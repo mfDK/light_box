@@ -1,1 +1,26 @@
 /*CSS STYLE*/
+.outer-lightbox {
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+}
+
+#this-image {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.inner-lightbox {
+	height: 300px;
+	width: 400px;
+	position: relative;
+	margin: 0 auto;
+	top: 25%;
+}
