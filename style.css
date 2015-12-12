@@ -9,6 +9,7 @@
 	right: 0;
 	bottom: 0;
 	display: none;
+	font-family: Arial;
 }
 
 #chosen-image {
@@ -26,3 +27,8 @@
 	border: 5px solid white;
 	border-radius: 5px;
 }
+ h1 {
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+ }
